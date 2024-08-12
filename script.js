@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function updateSize(){
-let size = document.querySelector(".size")
+let size = document.querySelector("#sizeInfo")
 let width = window.innerWidth
 let height = window.innerHeight
 size.innerText = `Width: ${width} and Height: ${height}`
